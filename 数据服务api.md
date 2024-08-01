@@ -10,7 +10,29 @@
 
 ## 1.应用管理
 
-5个接口，调完就行，查看授权信息暂时不弄
+查看授权信息：
+
+授权信息列表对应字段lable:
+
+![1722476544133](数据服务api.assets/1722476544133.png)
+
+> api名称：apiName
+>
+> 所属集合：collectName
+>
+> 描述：describe
+>
+> 授权人：creatName
+>
+> 授权时间：createTime
+>
+> 授权调用时间：authType=0显示永久，authType=1显示authDeadline的值
+>
+> 应用调用频次：callType=0显示无限制，callType=1显示callNum(调用次数)+斜杠+callUnit(调用单位) 
+>
+> 例如  10/秒     15/分钟     20/小时    100/天
+
+
 
 
 
